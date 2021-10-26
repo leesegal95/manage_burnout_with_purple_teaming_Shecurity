@@ -16,14 +16,14 @@
       update_cache: yes
   - name: Copy flagfile for osquery service config
     copy:
-      src: osquery.flags
+      src: configuration/osquery.flags
       dest: /etc/osquery/osquery.flags
       owner: root
       group: root
       mode: 0644
   - name: Copy conf for osquery service config
     copy:
-      src: osquery.conf
+      src: configuration/osquery.conf
       dest: /etc/osquery/osquery.conf
       owner: root
       group: root
