@@ -1,0 +1,9 @@
+--enroll_secret_path=/etc/osquery/link
+--enroll_tls_endpoint=/api/v1/osquery/enroll
+--config_plugin=filesystem
+--config_tls_endpoint=/api/v1/osquery/config
+--config_tls_refresh=10
+--host_identifier=instance
+--disable_events=false
+--enable_file_events=true
+--disable_audit=false
