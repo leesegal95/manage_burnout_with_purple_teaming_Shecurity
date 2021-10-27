@@ -81,7 +81,7 @@ NOTE: Do not forget to add your private key path to the hosts file so you will b
     - The logs you are about them most are the osquery.results.log -> here is where you will see the file monitored events, process events, and socket events. Don't forget to take actions that osquery is monitoring so there are logs to look at. 
 
 
-Now you have your test environment create with osquery :) HAVE FUN!
+Now you have your test environment created with osquery :) HAVE FUN!
     
 
 
